@@ -1,0 +1,27 @@
+# Arquivos e diretórios do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Diretórios de ambientes virtuais
+venv/
+.venv/
+
+# Arquivos de configuração e credenciais
+.env
+*.env
+
+# Arquivos do Django
+*.log
+db.sqlite3
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
