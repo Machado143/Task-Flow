@@ -1,7 +1,7 @@
-# filepath: c:\Codigo\taskflow\accounts\urls.py
-from django.urls import path  # Importa a função para definir rotas de URL
+from django.urls import path
+from .views import RegisterView, LoginView
 
-# Lista de padrões de URL para o app de contas
 urlpatterns = [
-    # Defina suas rotas aqui
+    path('register/', RegisterView.as_view(), name='auth-register'),
+    path('login/', LoginView.as_view(), name='auth-login'),
 ]
